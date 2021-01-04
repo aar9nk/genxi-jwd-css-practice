@@ -1,0 +1,109 @@
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+html {
+  
+  background-color: #adeecf;
+}
+
+main {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 15%;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 975px) {
+  main {
+  
+    grid-template-columns: 1fr;
+    
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  main {
+  
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+}
+
+div {
+  background-color:white;
+}
+
+.task-1 {
+  border: solid;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.task-1 p {
+  border: dotted;
+  padding: 1rem;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+.task-2 {
+  border: solid;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 15%;
+}
+.task-2 p {
+  border: dotted;
+  padding: 1rem;
+}
+
+.task-3 {
+  border: solid;
+  padding: 1rem;
+  
+  background-color: #feeafa;
+}
+.task-3 p {
+  padding: 1rem;
+}
+.task-3 div{
+background-color: #feeafa;
+}
+.task-4 {
+  border: solid;
+  padding: 1rem;
+  font-family: "Sofia";
+}
+.task-4 p {
+  padding: 1rem;
+  color: blueviolet;
+}
+.task-5 {
+  border: solid;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.task-5 .annoying-box {
+  display: flex;
+  justify-content: center;
+}
+.task-5 img {
+  max-width: 20%;
+  max-height: 20%;
+}
+.task-6 {
+  border: solid;
+  padding: 1rem;
+}
+.task-6 p {
+  padding: 1rem;
+}

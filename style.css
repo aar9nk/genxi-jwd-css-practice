@@ -1,0 +1,61 @@
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+div {
+  background-color: white;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+.task-1 {
+  border: solid;
+  padding: 1rem;
+}
+.task-1 p {
+  border: dotted;
+  padding: 1rem;
+}
+
+.task-2 {
+  border: solid;
+  padding: 1rem;
+}
+.task-2 p {
+  border: dotted;
+  padding: 1rem;
+}
+
+.task-3 {
+  border: solid;
+  padding: 1rem;
+}
+.task-3 p {
+  padding: 1rem;
+}
+
+.task-4 {
+  border: solid;
+  padding: 1rem;
+}
+.task-4 p {
+  padding: 1rem;
+}
+
+.task-5 {
+  border: solid;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.task-6 {
+  border: solid;
+  padding: 1rem;
+}
+.task-6 p {
+  padding: 1rem;
+}
