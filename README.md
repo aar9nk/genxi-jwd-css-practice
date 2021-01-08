@@ -1,4 +1,4 @@
-# HTML practice
+# CSS practice
 
 ## Description
 
